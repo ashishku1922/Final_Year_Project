@@ -5,7 +5,8 @@ import numpy as np
 import io
 import time
 import matplotlib.pyplot as plt
-
+import sys
+sys.stdout = sys.stderr = open('/dev/null', 'w')
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 def import_and_predict(image_data, model):
