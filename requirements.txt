@@ -1,7 +1,4 @@
-pandas
-plotly
+numpy
+pillow
+tensorflow
 streamlit
-yfinance
-pandas-datareader
-prophet
-tensorflow==2.3.0
